@@ -1,0 +1,26 @@
+# Binários e artefatos de build
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+faas-cli
+bin/
+dist/
+build/
+
+# Testes e cobertura
+*.test
+*.out
+coverage.*
+
+# Ambiente e editores
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+
+# Funções geradas localmente a partir de templates
+functions/
